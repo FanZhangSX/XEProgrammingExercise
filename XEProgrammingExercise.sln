@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEProgrammingExercise", "XEProgrammingExercise\XEProgrammingExercise.csproj", "{0C9FC546-47E7-486F-9369-425ED71747FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEProgrammingExercise.Test", "XEProgrammingExercise.Test\XEProgrammingExercise.Test.csproj", "{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C9FC546-47E7-486F-9369-425ED71747FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9FC546-47E7-486F-9369-425ED71747FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9FC546-47E7-486F-9369-425ED71747FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
