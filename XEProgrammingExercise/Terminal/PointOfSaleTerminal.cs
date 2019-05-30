@@ -46,7 +46,7 @@ namespace XEProgrammingExercise.Terminal
                 }
                 else
                 {
-                    Console.WriteLine($"{product} is not found");
+                    Console.WriteLine($"{p.Key} is not found");
                 }
             }
 
