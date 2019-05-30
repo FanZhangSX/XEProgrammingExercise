@@ -30,6 +30,7 @@ namespace XEProgrammingExercise.Test
         [TestCase("CCCCCCC", 6.0)]
         [TestCase("ABCD", 7.25)]
         [TestCase("", 0.00)]
+        [TestCase("ABCDABAEEE", 13.25)]
         public void TestCalculateTotalPrice(string originalString, double result)
         {
             MySetup();
