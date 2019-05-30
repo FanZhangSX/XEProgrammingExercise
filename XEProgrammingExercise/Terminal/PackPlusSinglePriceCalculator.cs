@@ -24,6 +24,10 @@ namespace XEProgrammingExercise.Terminal
         #region methods
         public decimal Calculator(int num)
         {
+            if (num < 0)
+            {
+                return 0.00m;
+            }
             return (num / _numberPerPack) * _packPrice + (num % _numberPerPack) * _singlePirce;
         }
 

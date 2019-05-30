@@ -18,6 +18,8 @@ namespace XEProgrammingExercise.Test
         [Test]
         public void TestCalculator()
         {
+            Assert.AreEqual(calculator.Calculator(-2), 0.00m);
+            Assert.AreEqual(calculator.Calculator(0), 0.00m);
             Assert.AreEqual(calculator.Calculator(3), 3.75m);
             Assert.AreEqual(calculator.Calculator(4), 4.00m);
             Assert.AreEqual(calculator.Calculator(5), 5.25m);

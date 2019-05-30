@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEProgrammingExercise", "XEProgrammingExercise\XEProgrammingExercise.csproj", "{0C9FC546-47E7-486F-9369-425ED71747FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XEProgrammingExercise", "XEProgrammingExercise\XEProgrammingExercise.csproj", "{0C9FC546-47E7-486F-9369-425ED71747FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEProgrammingExercise.Test", "XEProgrammingExercise.Test\XEProgrammingExercise.Test.csproj", "{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XEProgrammingExercise.Test", "XEProgrammingExercise.Test\XEProgrammingExercise.Test.csproj", "{186997D3-B1F2-490D-BFD8-EA4896F0B7B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

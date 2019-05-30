@@ -20,6 +20,10 @@ namespace XEProgrammingExercise.Terminal
         #region methods
         public decimal Calculator(int num)
         {
+            if(num < 0)
+            {
+                return 0.00m;
+            }
             return _singlePrice * num;
         }
         #endregion
