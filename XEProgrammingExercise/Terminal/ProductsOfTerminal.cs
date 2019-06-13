@@ -7,15 +7,15 @@ namespace XEProgrammingExercise.Terminal
     public class ProductsOfTerminal : IProductsOfTerminal
     {
         #region properties or variables
-        private List<IProduct> _products = new List<IProduct>();
+        private IList<IProduct> _products = new List<IProduct>();
         private bool disposed = false;
-        public List<IProduct> Product
-        {
-            get
-            {
-                return _products;
-            }
-        }
+        //public IList<IProduct> Product
+        //{
+        //    get
+        //    {
+        //        return _products;
+        //    }
+        //}
         #endregion
 
         #region methods
